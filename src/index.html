@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
 </head>
 <body >
@@ -42,7 +47,7 @@
   </div>
 
 </section>
-<section id="hero" class="container mx-auto px-4 ">
+<section id="hero" class="container mx-auto px-4 " data-aos="fade-up" data-aos-delay="300">
   <div class="flex flex-col justify-center items-center mt-10 lg:mt-32">
     <p class="text-5xl lg:text-5xl xl:text-9xl font-bold">SeamLess Logistics </p>
     <p class="text-4xl lg:text-5xl xl:text-9xl font-bold ">Faster <span class="font-serif italic text-green-700">Deliveries</span></p>
@@ -55,11 +60,11 @@
 
 </section>
 <section id="services" class="container mx-auto px-4  mt-10 lg:mt-32">
-  <p class="text-center text-4xl lg:text-5xl xl:text-7xl">Smart Route Optimization</p>
+  <p class="text-center text-4xl lg:text-5xl xl:text-7xl" data-aos="fade-up" data-aos-delay="400">Smart Route Optimization</p>
   <p class="text-center text-xl lg:text-3xl xl:text-3xl mt-3">we analyzee tariffs patterns and use Ai-driven mapping to ensure the fastet,<br>most cost effective delivery routes.</p>
   <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 mt-10 lg:mt-24">
     <!--first-->
-    <div class="flex-col items-center  p-4 border border-gray-300 rounded-2xl lg:w-1/3">
+    <div class="flex-col items-center  p-4 border border-gray-300 rounded-2xl lg:w-1/3" data-aos="fade-up">
       <div class="flex flex-row justify-between">
         <i class="fa-solid fa-sliders text-2xl lg:text-5xl"></i>
         <p class="text-3xl lg:text-6xl text-gray-300">01</p>
@@ -69,7 +74,7 @@
         <p class="text-2xl lg:text-4xl font-bold mt-4 lg:mt-10">READ MORE</p>
     </div>
     <!--second-->
-    <div class="flex-col items-center  p-4 border border-gray-300 rounded-2xl lg:w-1/3">
+    <div class="flex-col items-center  p-4 border border-gray-300 rounded-2xl lg:w-1/3"  data-aos="fade-up">
       <div class="flex flex-row justify-between">
         <i class="fa-solid fa-sliders text-2xl lg:text-5xl"></i>
         <p class="text-3xl lg:text-6xl text-gray-300">02</p>
@@ -79,7 +84,7 @@
         <p class="text-2xl lg:text-4xl font-bold mt-4 lg:mt-10">READ MORE</p>
     </div>
     <!--third-->
-    <div class="flex-col items-center  p-4 border border-gray-300  rounded-2xl lg:w-1/3">
+    <div class="flex-col items-center  p-4 border border-gray-300  rounded-2xl lg:w-1/3"  data-aos="fade-up">
       <div class="flex flex-row justify-between">
         <i class="fa-solid fa-sliders text-3xl lg:text-5xl"></i>
         <p class="text-3xl lg:text-6xl text-gray-300">03</p>
@@ -91,11 +96,11 @@
   </div>
 </section>
 
-<section id="about us" class="container px-4  mx-auto " >
+<section id="about us" class="container px-4  mx-auto " data-aos="fade-up" data-aos-delay="500" >
   <div class="flex flex-col lg:flex-row mt-10 lg:mt-32 ">
     <!--left item-->
     <div class="flex-col mt-2 lg:mt-24 lg:w-1/2">
-      <p class="text-center lg:text-left  text-4xl lg:text-7xl ">Trusted by Businesses</p>
+      <p class="text-center lg:text-left  text-4xl lg:text-7xl font-serif">Trusted by Businesses</p>
       <p class="text-xl lg:text-3xl mt-2 xl:mt-10 ">we deliver reliability withot edge technology real time tracking, and a commitment to on time performance,ensuring seamless logistics solutions.</p>
       <ul class="list-disc p-4  space-y-4 mt-8 ">
         <li class="text-2xl lg:text-4xl font-semibold">99% On Time Delivery</li>
@@ -112,7 +117,7 @@
   </div>
 
 </section>
-<section id="comprehensive" class="container mx-auto px-4  bg-gray-200 p-4 lg:p-6 mt-10 lg:mt-24">
+<section id="comprehensive" class="container mx-auto px-4  bg-gray-200 p-4 lg:p-6 mt-10 lg:mt-24" data-aos="fade-up" data-aos-delay="600">
     <div class="flex flex-row justify-between ">
       <!--leftitem-->
       <div class="flex-col lg:w-1/2">
@@ -127,7 +132,7 @@
       <!--cards-->
       <div class="flex flex-col lg:flex-row gap-4 lg:gap-6 mt-10 lg:mt-24">
         <!--first-->
-         <div class="flex-col items-center  p-4 bg-black  rounded-2xl lg:w-1/3">
+         <div class="flex-col items-center  p-4 bg-black  rounded-2xl lg:w-1/3"  data-aos="fade-up">
         <div class="flex flex-row justify-between">
         <i class="fa-brands fa-slack text-3xl lg:text-5xl bg-gray-100 rounded-full p-3 "></i>
         <i class="fa-solid fa-check text-3xl lg:text-5xl text-gray-200"></i>
@@ -136,7 +141,7 @@
         <p class="text-xl lg:text-3xl xl:text-3xl mt-3 text-white">we analyzee tariffs patterns and use Ai-driven mapping to ensure the fastet,most cost effective delivery routes.</p>
         </div>
         <!--second-->
-         <div class="flex-col items-center  p-4 bg-white  rounded-2xl lg:w-1/3">
+         <div class="flex-col items-center  p-4 bg-white  rounded-2xl lg:w-1/3"  data-aos="fade-up">
         <div class="flex flex-row justify-between">
         <i class="fa-brands fa-slack text-3xl lg:text-5xl rounded-full p-3 "></i>
         <i class="fa-solid fa-check text-3xl lg:text-5xl "></i>
@@ -145,7 +150,7 @@
         <p class="text-xl lg:text-3xl xl:text-3xl mt-3 ">we analyzee tariffs patterns and use Ai-driven mapping to ensure the fastet,most cost effective delivery routes.</p>
         </div>
         <!--third-->
-           <div class="flex-col items-center  p-4 bg-white  rounded-2xl lg:w-1/3">
+           <div class="flex-col items-center  p-4 bg-white  rounded-2xl lg:w-1/3"  data-aos="fade-up">
         <div class="flex flex-row justify-between">
         <i class="fa-brands fa-slack text-3xl lg:text-5xl rounded-full p-3 "></i>
         <i class="fa-solid fa-check text-3xl lg:text-5xl "></i>
@@ -156,7 +161,7 @@
       </div>
 
 </section>
-<section id="ssd" class="relative container mx-auto px-4 overflow-hidden w-full h-[50vh] lg:h-[70vh]">
+<section id="ssd" class="relative container mx-auto px-4 overflow-hidden w-full h-[50vh] lg:h-[70vh]" data-aos="fade-up" data-aos-delay="700">
       <img src="images/shi3.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black/40  flex items-center justify-center lg:justify-end ">
       <p class="text-3xl lg:text-7xl max-w-2xl text-white font-bold p-3">Revolutionazing supply chains with accuracy our logistics company provides flawless solutions enhancing efficiently and dependability to drive business success with assurance.</p>
@@ -184,7 +189,139 @@
         <p class="text-xl lg:text-3xl text-gray-500 text-center">completed Projects</p>
       </div>
   </div>
+  <!--testimonials-->
+  <div>
+     <p class="text-center text-4xl lg:text-7xl mt-10 lg:mt-32">Trusted by Businesses</p>
+      <p class="text-center text-xl lg:text-2xl mt-2 lg:mt-4 text-gray-500">We deliver reliability with cutting-edge technology,real time tracking and a commitment to on-time performance,ensuring seamless logistics solutions</p>
+  </div>
+    
+    <div class="flex flex-col lg:flex-row space-y-3 lg:space-x-6 mx-auto mt-10 lg:mt-16">
+      <!--first-->
+        <div class="flex flex-col items-center bg-gray-300 p-4 rounded-xl lg:w-1/3"  data-aos="fade-up">
+           <div class="flex flex-row space-x-2 lg:space-x-4">
+              <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i>
+           </div>
+           <p  class="text-center text-xl lg:text-3xl mt-2 lg:mt-8">Exceptional service and on-time deliveries every time.The tracking system is highly accurate and customer is always helpful.Higly recommend for hassle free logistics</p>
+           <div class="flex flex-row space-x-4 mt-4 lg:mt-8">
+              <img src="images/im4.svg" alt="" class="h-16 w-16">
+              <p class="texr-2xl lg:text-4xl font-bold">John Johnson</p>
+           </div>
+        </div>
+        <!--second-->
+        <div class="flex flex-col items-center bg-gray-100 p-4 rounded-xl lg:w-1/3"  data-aos="fade-up">
+           <div class="flex flex-row space-x-2 lg:space-x-4">
+              <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i>
+           </div>
+           <p  class="text-center text-xl lg:text-3xl mt-2 lg:mt-10">Exceptional service and on-time deliveries every time.The tracking system is highly accurate and customer is always helpful.Higly recommend for hassle free logistics</p>
+           <div class="flex flex-row space-x-4 mt-4 lg:mt-8">
+              <img src="images/im4.svg" alt="" class="h-16 w-16">
+              <p class="texr-2xl lg:text-4xl font-bold">Teddy Parker</p>
+           </div>
+        </div>
+
+        <!--third-->
+        <div class="flex flex-col items-center bg-gray-300 p-4 rounded-xl lg:w-1/3"  data-aos="fade-up">
+           <div class="flex flex-row space-x-2 lg:space-x-4">
+              <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i> <i class="fa-solid fa-star text-2xl lg:text-4xl text-amber-600"></i>
+           </div>
+           <p  class="text-center text-xl lg:text-3xl mt-2 lg:mt-8">Exceptional service and on-time deliveries every time.The tracking system is highly accurate and customer is always helpful.Higly recommend for hassle free logistics</p>
+           <div class="flex flex-row space-x-4 mt-4 lg:mt-8">
+              <img src="images/im4.svg" alt="" class="h-16 w-16">
+              <p class="texr-2xl lg:text-4xl font-bold">Lamin Jobe</p>
+           </div>
+        </div>
+
+    </div>
+  <div class="h-px bg-gray-500 w-full mt-16 xl:mt-32"></div>
 </section>
+<section id="latest" class="container mx-auto px-4 mt-16 lg:mt-32" data-aos="fade-up" data-aos-delay="800">
+  
+  <p class="text-5xl lg:text-8xl text-center lg:text-left">Latest Logistics Insights</p>
+  <div class="flex flex-row justify-between gap-2 lg:gap-4 mt-2 lg:mt-5">
+    
+      <div>
+        <p class="text-xl lg:text-3xl text-center lg:text-left mt-2 lg:mt-4">Stay updated with industry trends,innovative solutions and expert tips to optimize your supply chain and enchance efficiency.</p>
+      </div>
+      <div class="flex items-center ">
+        <button class="text-2xl lg:text-4xl bg-orange-600 p-4 text-white font-bold">view all</button>
+      </div>
+  </div>
+<!--pics-->
+  <div class="grid grid-cols-2 gap-2 lg:gap-6 mt-10 lg:mt-24">
+    <!--first-->
+    <div class="flex flex-col"  data-aos="fade-up">
+      <img src="images/shi4.jpg" alt="" class="rounded-2xl">
+      <p class="text-3xl lg:text-5xl font-bold mt-4">Smart Logistics trends</p>
+      <p class="text-base lg:text-2xl text-gray-500">11 march 2026</p>
+    </div>
+    <!--second-->
+     <div class="flex flex-col "  data-aos="fade-up">
+      <img src="images/shi5.jpg" alt="" class="rounded-2xl">
+      <p class="text-3xl lg:text-5xl font-bold mt-4">Reliable Shipping Strategies </p>
+      <p class="text-base lg:text-2xl text-gray-500">11 march 2026</p>
+    </div>
+  </div>
+
+<!--request a quote-->
+    <div class=" flex flex-col justify-center mt-8 lg:mt-32 bg-gray-100 p-5 lg:p-8 ">
+      <!--first-->
+      <div class="flex flex-col ">
+        <p class="text-4xl lg:text-8xl text-center font-serif">Request a Free Quote</p>
+        <p class="text-xl lg:text-2xl mx-auto text-center text-gray-500 mt-2">get a customized shipping quote tailored to your needs.Fast transparent and hassle free pricing for all logistics solutions</p>
+      </div>
+      <!--form-->
+      <div class="mt-10 lg:mt-16" >
+        <form action="" class="flex flex-col lg:flex-row justify-center gap-4">
+          <div class="flex flex-col">
+            <label class="text-3xl lg:text-5xl" >Full Name</label>
+            <input type="text" name="name" placeholder="Enter name" required class="border border-gray-400 p-2 w-80 h-16 mt-2">
+          </div>
+          <div class="flex flex-col">
+            <label class="text-3xl lg:text-5xl" >Email</label>
+            <input type="text" name="email" placeholder="Enter email" required class="border border-gray-400 p-2 w-80 h-16 mt-2">
+          </div>
+          <div class="flex flex-col">
+            <label class="text-3xl lg:text-5xl" >Subject</label>
+            <input type="text" name="subject" placeholder="Enter subject" required class="border border-gray-400 p-2 w-80 h-16 mt-2">
+          </div>
+
+          <!--button-->
+          <button type="submit" class="bg-amber-600 p-2 lg:p-4 text-2xl lg:text-4xl text-white font-semibold rounded-4xl">Send quote</button>
+        </form>
+      </div>
+    </div>
+  
+  
+</section>
+<footer id ="footer" class="container mx-auto bg-black p-4 lg:p-16" data-aos="fade-up" data-aos-delay="900">
+    <div class="flex flex-col lg:flex-row items-start justify-between">
+      <!--home-->
+        <div class="flex flex-col lg:w-1/3">
+          <i class="fa-solid fa-ship text-5xl lg:text-6xl text-amber-700"></i>
+          <p class="text-xl lg:text-2xl text-white mt-2 lg:mt-6">we provide smart reliable logistics solutionstailored to business of all sizes ensuring fast and seamless delivey worldwide</p>  
+        </div>
+        <!--quick links-->
+        <div class="flex flex-col items-start lg:w-1/3 mt-4">
+          <p class="text-3xl lg:text-4xl font-bold text-white hover:text-gray-500"> Quick Links</p>
+          <ul class="mt-4 lf:mt-6 text-center">
+            <li><a href="" class="text-xl lg:text-2xl text-white hover:text-gray-500">home</a></li>
+             <li><a href="" class="text-xl lg:text-2xl text-white hover:text-gray-500">about us</a></li>
+              <li><a href="" class="text-xl lg:text-2xl text-white hover:text-gray-500">services</a></li>
+               <li><a href="" class="text-xl lg:text-2xl text-white hover:text-gray-500">logistics</a></li>
+          </ul>
+        </div>
+        <!--contact-->
+        <div class="flex flex-col items-start lg:w-1/3 mt-4">
+          <p class="text-3xl lg:text-4xl font-bold text-white hover:text-gray-500">Get In Touch</p>
+            <p class="text-xl lg:text-2xl text-white hover:text-gray-500 mt-2 lg:mt-6">Phone:+220 5190199</p>
+             <p class="text-xl lg:text-2xl text-white hover:text-gray-500 mt-2">Mail:gassamay78@gmail.com</p>
+             <p class="text-xl lg:text-2xl text-white hover:text-gray-500 mt-2">Chat Me on Whatsapp</p>
+             <p class="text-xl lg:text-2xl text-white hover:text-gray-500 mt-2">Location: Brusubi</p>
+             
+        </div>
+    </div>
+
+</footer>
 
 <script>
   const button = document.getElementById('btn');
@@ -193,6 +330,13 @@
     button.addEventListener('click', () => {
       menu.classList.toggle('hidden')
     });
+
+
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true,     // animation happens only once while scrolling
+  });
+
 
 </script>
 </body>
